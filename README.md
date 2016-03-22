@@ -1,0 +1,2 @@
+# wptema
+Tema za WordPress.
