@@ -1,0 +1,16 @@
+
+#masthead {
+	height: $header__height;
+	width: 100%;
+	position: fixed;
+	background-color: $color__background-header;
+	@include box-shadow(0, 10px, 5px, rgba(0, 0, 0, 0.42));
+
+	.site-branding {
+		float: left;
+	}
+
+	nav {
+		float: right;
+	}
+}

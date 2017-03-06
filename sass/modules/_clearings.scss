@@ -21,3 +21,8 @@
 .site-footer:after {
 	@include clearfix-after;
 }
+
+.clear-both {
+	display: block;
+	@include clearfix-after;
+}

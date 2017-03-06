@@ -17,3 +17,28 @@ a {
 		outline: 0;
 	}
 }
+
+nav {
+	a {
+	color: $color__nav-link;
+	line-height: $header__height;
+	vertical-align: middle;
+	padding: 0 5px;
+
+	&:visited {
+		color: $color__nav-link-visited;
+	}
+	&:hover,
+	&:focus,
+	&:active {
+		color: $color__nav-link-hover;
+	}
+	&:focus {
+		outline: thin dotted;
+	}
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}
+}
